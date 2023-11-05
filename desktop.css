@@ -1,0 +1,165 @@
+.col-1{
+    width:8.33%;
+}
+
+.col-2{
+    width:16.66%;
+}
+
+.col-3{
+    width:25%;
+}
+
+.col-4{
+    width:33.33%;
+}
+
+.col-5{
+    width:41.66%;
+}
+
+.col-6{
+    width:50%;
+}
+.col-7{
+    width:58.33%;
+}
+
+.col-8{
+    width:66.66%;
+}
+
+.col-9{
+    width:75%;
+}
+
+.col-10{
+    width:83.33%;
+}
+
+.col-11{
+    width:91.66%;
+}
+
+.col-12{
+    width:100%;
+}
+
+body{
+    background-color: white;
+    background-size:contain;
+   
+}
+
+[class*="col-"]{
+   
+}
+
+
+
+.nav-heading h1{
+    text-align: "center";
+    margin: 10px;
+    
+}
+
+.navbar{
+    margin-top: 0%;
+    /* height: 50cqmax; */
+   background-size:contain;
+   /* height: 10cap; */
+}
+.navbar-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+
+.nav-logo{
+    margin-top: 0%;
+    margin: auto;
+    text-align: "left";
+}
+
+.navbar-menu a{
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding :5px 5px;
+    margin-top: 0%;
+    background-color: gray;
+   
+}
+
+/* navbar ends here  */
+
+/* profile starts here  */
+
+.profile .top-weather-icon{
+    right: 100px;
+    top: 20px;
+    width:120px;
+    transition: width 2s, transform 2s;
+}
+.profile .top-weather-icon:hover{
+    width:140px;
+}
+
+.profile-desc h1{
+    font-family: 'Satisfy',cursive;
+   font-size: 3rem;
+    }
+    .profile-desc p{
+        color: gray;
+        margin: 0px auto;
+        text-align: center;
+       margin-bottom: 10ox;
+    }
+.profile .bottom-weather-icon{
+    left: 20px;
+    bottom: 20px;
+    width:120px;
+    transition: width 2s, transform 2s;
+}
+.profile .bottom-weather-icon:hover{
+    width:140px;
+}
+
+.profile::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.aboutme-image{
+    margin-top: 100px;
+}
+
+.aboutme-image img{
+
+    height: 270px;
+    width:250px;
+
+}
+.aboutme-desc p{
+    text-align: left;
+}
+
+.Professional-experience  {
+padding: 1% 1%;
+}
+.card-icon{
+    text-align: center;
+}
+
+
+/* contact  */
+
+
+html{
+    scroll-behavior: smooth;
+    /* transition: all 1s ease-in-out; */
+}
