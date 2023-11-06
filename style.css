@@ -63,6 +63,7 @@ p{
 /* navbar starts here */
 .navbar{
    
+    /* position:fixed; */
     background-size: 100;
     background-position: 100%;
     background-color: #122342;
@@ -112,6 +113,7 @@ p{
 /* profile design starts from here  */
 
 .profile{
+    height: 100vh;
     
     padding: 130px 10px;
     position: relative;
@@ -154,6 +156,7 @@ p{
 
 /* about me  start here*/
 .about-me{
+    height: 100vh;
     background-color: #122342;
     padding: 1% 7%;
     color: white;
@@ -189,6 +192,7 @@ p{
 }
 
 .professional-experience .card{
+    height: 100vh;
     background-color: #a39e9e;
     border-radius: 5px;
     padding: 10px;
@@ -238,6 +242,7 @@ padding: 15px;
 }
 
 .contact-social {
+    height: 100vh;
     background-color:#122342;
 }
 
